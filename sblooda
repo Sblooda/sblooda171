@@ -1,0 +1,10 @@
+import matplotlib.pyplot as draw
+x = range(-4,5)
+y = [(f_x) for i in x]
+ax = [i for i in x if (f_x)==0]
+print(ax)
+draw.plot(x , y)
+draw.ylim(-4,5)
+draw.axvline(0,color = 'r')
+draw.axhline(0,color = 'r')
+draw.grid(True)
